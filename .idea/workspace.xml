@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cb700bb-deb0-48e7-b52e-381d10363ecb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/interfaces/StudentsCreatedListenerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/interfaces/StudentsUpdatedListenerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/models/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/services/StudentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/services/StudentManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/AddStudentFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/EditStudentFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/AboutFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/AboutFrame.jfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/ControlPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/ControlPanel.jfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/MainFrame.jfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/util/AppUtils.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/ui/ControlPanel.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2Cysoj4n5FtouUW9yudyF6Bf26i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/greg/Development/Java/swing-app/src/main/resources/com/example/theme/custom&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/theme/custom" />
+      <recent name="$PROJECT_DIR$/screenshots" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/theme/custom" />
+      <recent name="$PROJECT_DIR$/src/packaging" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/theme/custom" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.interfaces" />
+      <recent name="com.example.ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.App" />
+      <module name="swing-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swing-app [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="swing-app [install AppImage]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+                <option value="-Dappimage=linux" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="swing-app [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="swing-app [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Maven.swing-app [install AppImage]" />
+      <item itemvalue="Maven.swing-app [clean]" />
+      <item itemvalue="Maven.swing-app [install]" />
+      <item itemvalue="Maven.swing-app [package]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Maven.swing-app [clean]" />
+        <item itemvalue="Maven.swing-app [install]" />
+        <item itemvalue="Maven.swing-app [package]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cb700bb-deb0-48e7-b52e-381d10363ecb" name="Changes" comment="" />
+      <created>1659786337338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659786337338</updated>
+      <workItem from="1659786338395" duration="14135000" />
+      <workItem from="1659801264751" duration="1607000" />
+      <workItem from="1659805758027" duration="1725000" />
+      <workItem from="1659960022172" duration="9417000" />
+      <workItem from="1659979982028" duration="276000" />
+      <workItem from="1659982484209" duration="172000" />
+      <workItem from="1659983493060" duration="1930000" />
+      <workItem from="1659997964075" duration="3892000" />
+      <workItem from="1660002609940" duration="10678000" />
+      <workItem from="1660057824442" duration="1197000" />
+      <workItem from="1660060093256" duration="2234000" />
+      <workItem from="1660063378258" duration="54000" />
+      <workItem from="1660086269768" duration="58000" />
+      <workItem from="1660301780478" duration="158000" />
+      <workItem from="1660310348013" duration="790000" />
+      <workItem from="1660312006198" duration="1674000" />
+      <workItem from="1660316265266" duration="1457000" />
+      <workItem from="1660398006187" duration="105000" />
+      <workItem from="1660398446120" duration="1235000" />
+      <workItem from="1660400905659" duration="9123000" />
+      <workItem from="1660421806620" duration="336000" />
+      <workItem from="1660423702983" duration="899000" />
+      <workItem from="1660424815258" duration="104000" />
+      <workItem from="1660425652073" duration="55000" />
+      <workItem from="1660470393631" duration="64000" />
+      <workItem from="1660478801109" duration="2199000" />
+      <workItem from="1660519371082" duration="54000" />
+      <workItem from="1660524882942" duration="6000" />
+      <workItem from="1660571287482" duration="323000" />
+      <workItem from="1660572738716" duration="47000" />
+      <workItem from="1660655963120" duration="612000" />
+      <workItem from="1660667536770" duration="88000" />
+      <workItem from="1660668268720" duration="23000" />
+      <workItem from="1660736922400" duration="1182000" />
+      <workItem from="1660748353392" duration="31000" />
+      <workItem from="1661437600038" duration="14000" />
+      <workItem from="1664360729091" duration="226000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1659795804032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659795804033</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated ignore">
+      <created>1659796061836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659796061836</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated description">
+      <created>1659796332062</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659796332062</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated description">
+      <created>1659796512227</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659796512227</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated event handler name for consistency">
+      <created>1659796649056</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659796649056</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated docs">
+      <created>1659797792372</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659797792372</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated light theme">
+      <created>1659799596502</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659799596502</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Misc changes">
+      <created>1659799716537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659799716537</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixed package name">
+      <created>1659800021409</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659800021409</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated for clarification">
+      <created>1659800242531</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659800242531</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updates hello message when enter key is pressed">
+      <created>1659801829659</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659801829659</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed about window mode and updates app menu mnemonics">
+      <created>1659805976513</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659805976513</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Set minimum window dimensions">
+      <created>1659806528846</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659806528846</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated readme">
+      <created>1659807207408</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659807207408</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated theming">
+      <created>1659960131705</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659960131705</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated about dialog ui">
+      <created>1659960503432</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659960503432</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added feature list">
+      <created>1659965418159</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659965418159</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Reverted default light theme back">
+      <created>1659965431688</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659965431688</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed spelling">
+      <created>1659965496208</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659965496208</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added Linux screenshots">
+      <created>1659966276251</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659966276251</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Small refactor">
+      <created>1659966450415</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659966450415</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated macOS icns file from png">
+      <created>1659968056011</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659968056011</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Corrected filename">
+      <created>1659980039755</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659980039755</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added known build issues part">
+      <created>1659984270584</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659984270584</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fixed display issues with larger font sizes">
+      <created>1660001082514</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660001082514</updated>
+    </task>
+    <task id="LOCAL-00026" summary="More fixes to deal with larger fonts">
+      <created>1660001772323</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1660001772323</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added pre-packing for eventual AppImage packaging (not to be confused with jpackage's app-image).">
+      <created>1660045910587</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660045910587</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Updated packaging information">
+      <created>1660056864774</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1660056864774</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Removes linux requirement">
+      <created>1660059129311</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1660059129311</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Updated docs and allows building native-image on Windows and macOS">
+      <created>1660060503402</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1660060503402</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added separate app-image configs based on platform">
+      <created>1660062506029</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660062506029</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated light/dark themes to use custom ones">
+      <created>1660312519399</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1660312519399</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated screenshots to match themes">
+      <created>1660313058082</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1660313058082</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Obfuscation no longer breaks custom themes">
+      <created>1660317072535</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1660317072535</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Custom theme modifications">
+      <created>1660398099286</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1660398099286</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Updated docs">
+      <created>1660398534885</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1660398534885</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Updated docs">
+      <created>1660399207263</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1660399207263</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added some example controls">
+      <created>1660408594326</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1660408594326</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Updated focus tab background color">
+      <created>1660408880399</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1660408880399</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Added additional screenshots">
+      <created>1660409219481</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1660409219481</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Fixed theme color property">
+      <created>1660409342060</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1660409342060</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Bumps the version">
+      <created>1660421881426</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1660421881426</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Updated window type (displays w/ shadow)">
+      <created>1660423775731</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1660423775731</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Small fix">
+      <created>1660424886298</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1660424886298</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fixed wrong return value">
+      <created>1660425693296</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1660425693296</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Small updated to themes">
+      <created>1660571590071</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1660571590071</updated>
+    </task>
+    <task id="LOCAL-00047" summary="More small updates to themes">
+      <created>1660667604040</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1660667604040</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updated macOS icns file from png" />
+    <MESSAGE value="Corrected filename" />
+    <MESSAGE value="Added known build issues part" />
+    <MESSAGE value="Fixed display issues with larger font sizes" />
+    <MESSAGE value="More fixes to deal with larger fonts" />
+    <MESSAGE value="Added pre-packing for eventual AppImage packaging (not to be confused with jpackage's app-image)." />
+    <MESSAGE value="Updated packaging information" />
+    <MESSAGE value="Removes linux requirement" />
+    <MESSAGE value="Updated docs and allows building native-image on Windows and macOS" />
+    <MESSAGE value="Added separate app-image configs based on platform" />
+    <MESSAGE value="Updated light/dark themes to use custom ones" />
+    <MESSAGE value="Updated screenshots to match themes" />
+    <MESSAGE value="Obfuscation no longer breaks custom themes" />
+    <MESSAGE value="Custom theme modifications" />
+    <MESSAGE value="Updated docs" />
+    <MESSAGE value="Added some example controls" />
+    <MESSAGE value="Updated focus tab background color" />
+    <MESSAGE value="Added additional screenshots" />
+    <MESSAGE value="Fixed theme color property" />
+    <MESSAGE value="Bumps the version" />
+    <MESSAGE value="Updated window type (displays w/ shadow)" />
+    <MESSAGE value="Small fix" />
+    <MESSAGE value="Fixed wrong return value" />
+    <MESSAGE value="Small updated to themes" />
+    <MESSAGE value="More small updates to themes" />
+    <option name="LAST_COMMIT_MESSAGE" value="More small updates to themes" />
+  </component>
+</project>
