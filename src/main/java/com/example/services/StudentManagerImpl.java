@@ -80,8 +80,8 @@ public class StudentManagerImpl implements StudentManager {
             String[] result = query.getFirstResult();
 
             return Double.parseDouble(result[0]);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        } catch (Exception e) {
+            return 0;
         }
     }
 }
