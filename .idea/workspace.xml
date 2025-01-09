@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cb700bb-deb0-48e7-b52e-381d10363ecb" name="Changes" comment="" />
+    <list default="true" id="0cb700bb-deb0-48e7-b52e-381d10363ecb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,42 +56,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.App.executor": "Run",
-    "Maven.example [clean].executor": "Run",
-    "Maven.example [compile].executor": "Run",
-    "Maven.example [install].executor": "Run",
-    "Maven.example [org.apache.maven.plugins:maven-assembly-plugin:3.6.0:single].executor": "Run",
-    "Maven.example [package].executor": "Run",
-    "Maven.swing-app [clean].executor": "Run",
-    "Maven.swing-app [compile].executor": "Run",
-    "Maven.swing-app [install AppImage].executor": "Run",
-    "Maven.swing-app [install].executor": "Run",
-    "Maven.swing-app [org.apache.maven.plugins:maven-assembly-plugin:3.6.0:single].executor": "Run",
-    "Maven.swing-app [org.apache.maven.plugins:maven-install-plugin:3.0.0-M1:install-file].executor": "Run",
-    "Maven.swing-app [org.apache.maven.plugins:maven-install-plugin:3.0.0-M1:install].executor": "Run",
-    "Maven.swing-app [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor": "Run",
-    "Maven.swing-app [package].executor": "Run",
-    "Maven.swing-app [validate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/greg/Development/Java/swing-app/src/main/resources/com/example/theme/custom",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "typescript.add.unambiguous.imports.on.the.fly": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.example [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.example [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.example [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.example [org.apache.maven.plugins:maven-assembly-plugin:3.6.0:single].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.example [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [install AppImage].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [org.apache.maven.plugins:maven-assembly-plugin:3.6.0:single].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [org.apache.maven.plugins:maven-install-plugin:3.0.0-M1:install-file].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [org.apache.maven.plugins:maven-install-plugin:3.0.0-M1:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.swing-app [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/greg/Development/Java/swing-app/src/main/resources/com/example/theme/custom&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/theme/custom" />
@@ -261,9 +263,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Maven.swing-app [package]" />
         <item itemvalue="Maven.swing-app [clean]" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Maven.swing-app [install]" />
       </list>
     </recent_temporary>

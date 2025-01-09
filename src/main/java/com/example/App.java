@@ -13,7 +13,7 @@ import java.lang.reflect.InaccessibleObjectException;
 public class App {
     private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedLookAndFeelException, ClassNotFoundException, InstantiationException, IllegalAccessException {
         // macOS  (see https://www.formdev.com/flatlaf/macos/)
         if (SystemInfo.isMacOS) {
             // enable screen menu bar
@@ -45,7 +45,6 @@ public class App {
                 LOGGER.debug("Failed to set proper app name");
             }
         }
-
 
         new MainFrame();
     }
