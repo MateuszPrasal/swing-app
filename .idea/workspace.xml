@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cb700bb-deb0-48e7-b52e-381d10363ecb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0cb700bb-deb0-48e7-b52e-381d10363ecb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +58,11 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
+    "Maven.example [clean].executor": "Run",
+    "Maven.example [compile].executor": "Run",
+    "Maven.example [install].executor": "Run",
+    "Maven.example [org.apache.maven.plugins:maven-assembly-plugin:3.6.0:single].executor": "Run",
+    "Maven.example [package].executor": "Run",
     "Maven.swing-app [clean].executor": "Run",
     "Maven.swing-app [compile].executor": "Run",
     "Maven.swing-app [install AppImage].executor": "Run",
