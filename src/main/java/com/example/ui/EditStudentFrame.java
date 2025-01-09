@@ -10,6 +10,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Klasa widoku edycji studenta
+ */
 public class EditStudentFrame extends JFrame {
     private JPanel mainPanel = new JPanel();
     private JTextField nameTextField = new JTextField();
@@ -37,6 +40,9 @@ public class EditStudentFrame extends JFrame {
         setVisible(true);
     }
 
+    /**
+     * Metoda inicjalizująca pola tekstowe dla widoku edycji
+     */
     private void initTextFieldsLayout() {
         JPanel textFieldsLayout = new JPanel();
         textFieldsLayout.setLayout(new BoxLayout(textFieldsLayout, BoxLayout.Y_AXIS));
@@ -72,6 +78,9 @@ public class EditStudentFrame extends JFrame {
         mainPanel.add(textFieldsLayout);
     }
 
+    /**
+     * Metoda inicjalizująca panel z przyciskami kontrolnymi
+     */
     private void initButtonsLayout() {
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.X_AXIS));

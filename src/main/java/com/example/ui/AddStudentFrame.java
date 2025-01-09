@@ -10,6 +10,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Klasa widoku dodawania studenta
+ */
 public class AddStudentFrame extends JFrame {
     private JPanel mainPanel = new JPanel();
     private JTextField nameTextField = new JTextField();
@@ -33,6 +36,9 @@ public class AddStudentFrame extends JFrame {
         setVisible(true);
     }
 
+    /**
+     * Metoda inicjalizująca pola tekstowe w widoku
+     */
     private void initTextFieldsLayout() {
         JPanel textFieldsLayout = new JPanel();
         textFieldsLayout.setLayout(new BoxLayout(textFieldsLayout, BoxLayout.Y_AXIS));
@@ -64,6 +70,9 @@ public class AddStudentFrame extends JFrame {
         mainPanel.add(textFieldsLayout);
     }
 
+    /**
+     * Metoda inicjalizująca panel z przyciskami kontrolnymi
+     */
     private void initButtonsLayout() {
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.X_AXIS));

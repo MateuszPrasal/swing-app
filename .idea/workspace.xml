@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cb700bb-deb0-48e7-b52e-381d10363ecb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/StudentManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/services/StudentManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/services/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/AddStudentFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/AddStudentFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/EditStudentFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/EditStudentFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/MainFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

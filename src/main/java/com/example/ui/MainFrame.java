@@ -20,7 +20,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * @author unknown
+ * Klasa głównego widoku aplikacji
  */
 public class MainFrame extends JFrame implements StudentsCreatedListenerInterface, StudentsUpdatedListenerInterface {
     private JPanel mainPanel = new JPanel();
@@ -42,11 +42,17 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
         setVisible(true);
     }
 
+    /**
+     * Inicjalizacja layoutu panelu
+     */
     private void initPanel() {
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
         add(mainPanel);
     }
 
+    /**
+     * Inicjalizacja tabeli wyświetlającej wyniki
+     */
     private void initTable() {
         tableModel = new DefaultTableModel() {
             @Override
@@ -76,6 +82,9 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
         mainPanel.add(scrollPane);
     }
 
+    /**
+     * Inicjalizacja panelu zawierającego przyciski kontrolne
+     */
     private void initButtons() {
         JPanel buttonsPanel = new JPanel();
         buttonsPanel.setBackground(Color.LIGHT_GRAY);
@@ -154,6 +163,9 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
         mainPanel.add(panel);
     }
 
+    /**
+     * Metoda aktualizująca tabelę w oparciu o dane z bazy SQLite
+     */
     private void setTableModelData() {
         String[] columnNames = {"StudentID", "Name", "Age", "Grade"};
         var students = this.studentManager.displayAllStudents();
@@ -167,12 +179,22 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
         tableModel.setDataVector(data, columnNames);
     }
 
+    /**
+     * Metoda nasłuchująca na utworzenie studenta
+     *
+     * @param student
+     */
     @Override
     public void onStudentCreated(Student student) {
         this.studentManager.addStudent(student);
         setTableModelData();
     }
 
+    /**
+     * Metoda nasłuchująca na aktualizację studenta
+     *
+     * @param student
+     */
     @Override
     public void onStudentUpdated(Student student) {
         this.studentManager.updateStudent(student);
