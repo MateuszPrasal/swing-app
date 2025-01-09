@@ -92,6 +92,7 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
                 addStudentFrame.setStudentsCreatedListener(MainFrame.this);
             }
         });
+
         removeStudentBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
