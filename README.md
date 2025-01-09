@@ -33,3 +33,8 @@ commands from Maven tab
 ``` 
 java -jar StudentsApp.jar
 ```
+
+### Requirements
+
+- Java 17
+- Maven
