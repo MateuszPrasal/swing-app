@@ -3,6 +3,7 @@ package com.example.services;
 import com.example.models.Student;
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.dao.DaoManager;
+import com.j256.ormlite.dao.GenericRawResults;
 import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.j256.ormlite.table.TableUtils;
 
@@ -74,6 +75,13 @@ public class StudentManagerImpl implements StudentManager {
 
     @Override
     public double calculateAverageGrade() {
-        return 0;
+        try {
+            GenericRawResults<String[]> query = this.studentsDao.queryRaw("SELECT AVG(grade) as average from students");
+            String[] result = query.getFirstResult();
+
+            return Double.parseDouble(result[0]);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

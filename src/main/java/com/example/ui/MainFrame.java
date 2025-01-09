@@ -103,7 +103,7 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
                     tableModel.removeRow(selectedRow);
 
                 } else {
-                    JOptionPane.showMessageDialog(mainPanel, "Nie wybrano żadnego wiersza");
+                    JOptionPane.showMessageDialog(mainPanel, "No row was chosen");
                 }
             }
         });
@@ -127,8 +127,17 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
                     EditStudentFrame editStudentFrame = new EditStudentFrame(student);
                     editStudentFrame.setStudentsUpdatedListener(MainFrame.this);
                 } else {
-                    JOptionPane.showMessageDialog(mainPanel, "Nie wybrano żadnego wiersza");
+                    JOptionPane.showMessageDialog(mainPanel, "No row was chosen");
                 }
+            }
+        });
+
+        calculateAverageBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                double avg = studentManager.calculateAverageGrade();
+
+                JOptionPane.showMessageDialog(mainPanel, "Average grade of students: " + avg);
             }
         });
 
