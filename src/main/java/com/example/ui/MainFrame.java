@@ -18,6 +18,7 @@ import javax.swing.table.JTableHeader;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Date;
 
 /**
  * Klasa głównego widoku aplikacji
@@ -26,8 +27,8 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
     private JPanel mainPanel = new JPanel();
     private JTable table;
     private DefaultTableModel tableModel;
-
     private StudentManager studentManager = new StudentManagerImpl();
+    private DefaultListModel listModel = new DefaultListModel();
 
     public MainFrame() {
         setMinimumSize(new Dimension(650, 470));
@@ -36,6 +37,7 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
         initTable();
         initButtons();
         initPanel();
+        initListLayout();
 
         pack();
         setLocationRelativeTo(null); // Centers Window
@@ -78,7 +80,6 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
         });
 
         JScrollPane scrollPane = new JScrollPane(table);
-
         mainPanel.add(scrollPane);
     }
 
@@ -99,6 +100,8 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
             public void actionPerformed(ActionEvent e) {
                 AddStudentFrame addStudentFrame = new AddStudentFrame();
                 addStudentFrame.setStudentsCreatedListener(MainFrame.this);
+
+                addLog("New student window triggered");
             }
         });
 
@@ -112,6 +115,8 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
                     studentManager.removeStudent(String.valueOf(id));
                     tableModel.removeRow(selectedRow);
 
+                    addLog("Student removed [" + id + "]");
+
                 } else {
                     JOptionPane.showMessageDialog(mainPanel, "No row was chosen");
                 }
@@ -122,6 +127,7 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
             @Override
             public void actionPerformed(ActionEvent e) {
                 setTableModelData();
+                addLog("Displaying all students triggered");
             }
         });
 
@@ -136,6 +142,8 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
 
                     EditStudentFrame editStudentFrame = new EditStudentFrame(student);
                     editStudentFrame.setStudentsUpdatedListener(MainFrame.this);
+
+                    addLog("Edit student window triggered");
                 } else {
                     JOptionPane.showMessageDialog(mainPanel, "No row was chosen");
                 }
@@ -147,6 +155,7 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
             public void actionPerformed(ActionEvent e) {
                 double avg = studentManager.calculateAverageGrade();
 
+                addLog("Calculating average grade triggered");
                 JOptionPane.showMessageDialog(mainPanel, "Average grade of students: " + avg);
             }
         });
@@ -160,7 +169,16 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
         JPanel panel = new JPanel();
         panel.add(buttonsPanel);
 
+        Box.createVerticalGlue();
         mainPanel.add(panel);
+        Box.createVerticalGlue();
+    }
+
+    private void initListLayout() {
+        JList list = new JList<>(listModel);
+        JScrollPane listscroll = new JScrollPane(list);
+
+        mainPanel.add(listscroll);
     }
 
     /**
@@ -179,6 +197,10 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
         tableModel.setDataVector(data, columnNames);
     }
 
+    private void addLog(String log) {
+        listModel.addElement("[" + new Date() + "] " + log);
+    }
+
     /**
      * Metoda nasłuchująca na utworzenie studenta
      *
@@ -188,6 +210,7 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
     public void onStudentCreated(Student student) {
         this.studentManager.addStudent(student);
         setTableModelData();
+        addLog("New student created [" + student + "]");
     }
 
     /**
@@ -199,5 +222,7 @@ public class MainFrame extends JFrame implements StudentsCreatedListenerInterfac
     public void onStudentUpdated(Student student) {
         this.studentManager.updateStudent(student);
         setTableModelData();
+
+        addLog("Student updated [" + student + "]");
     }
 }
